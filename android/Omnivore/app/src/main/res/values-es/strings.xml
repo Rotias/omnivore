@@ -12,4 +12,249 @@
     <string name="highlight_note">Anotar</string>
     <string name="copyTextSelection">Copiar</string>
     <string name="pdf_highlight_menu_note">Anotar</string>
+	<string name="back">Atrás</string>
+	
+	    <!-- Apple Auth -->
+    <string name="apple_auth_text">Continuar con Apple</string>
+    <string name="apple_auth_loading">Iniciando sesión...</string>
+
+    <!-- Create User Profile -->
+    <string name="create_user_profile_title">Crear tu perfil</string>
+    <string name="create_user_profile_loading">Cargando...</string>
+    <string name="create_user_profile_action_cancel">Cancelar Registro</string>
+    <string name="create_user_profile_action_submit">Enviar</string>
+    <string name="create_user_profile_field_placeholder_name">Nombre</string>
+    <string name="create_user_profile_field_label_name">Nombre</string>
+    <string name="create_user_profile_field_placeholder_username">Nombre de Usuario</string>
+    <string name="create_user_profile_field_label_username">Nombre de Usuario</string>
+    <string name="create_user_profile_error_msg">Por favor, introduce un nombre y un nombre de usuario válidos.</string>
+
+    <!-- Email Login -->
+    <string name="email_login_loading">Cargando...</string>
+    <string name="email_login_action_back">Volver al inicio de sesión social</string>
+    <string name="email_login_action_no_account">¿No tienes una cuenta?</string>
+    <string name="email_login_action_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="email_login_action_login">Iniciar Sesión</string>
+    <string name="email_login_field_placeholder_email">usuario@email.com</string>
+    <string name="email_login_field_label_email">Correo Electrónico</string>
+    <string name="email_login_field_placeholder_password">Contraseña</string>
+    <string name="email_login_field_label_password">Contraseña</string>
+    <string name="email_login_error_msg">Por favor, introduce una dirección de correo electrónico y una contraseña.</string>
+
+    <!-- Email Sign Up -->
+    <string name="email_signup_verification_message">Hemos enviado un correo electrónico de verificación a %1$s. Por favor, verifica tu correo electrónico y luego pulsa el botón de abajo.</string>
+    <string name="email_signup_check_status">Verificar estado</string>
+    <string name="email_signup_action_use_different_email">¿Utilizar un correo electrónico diferente?</string>
+    <string name="email_signup_loading">Cargando...</string>
+    <string name="email_signup_action_back">Volver al inicio de sesión social</string>
+    <string name="email_signup_action_already_have_account">¿Ya tienes una cuenta?</string>
+    <string name="email_signup_action_sign_up">Registrarse</string>
+    <string name="email_signup_field_placeholder_email">usuario@email.com</string>
+    <string name="email_signup_field_label_email">Correo Electrónico</string>
+    <string name="email_signup_field_placeholder_password">Contraseña</string>
+    <string name="email_signup_field_label_password">Contraseña</string>
+    <string name="email_signup_field_placeholder_name">Nombre</string>
+    <string name="email_signup_field_label_name">Nombre</string>
+    <string name="email_signup_field_placeholder_username">Nombre de Usuario</string>
+    <string name="email_signup_field_label_username">Nombre de Usuario</string>
+    <string name="email_signup_error_msg">Por favor, completa todos los campos.</string>
+
+    <!-- Google Auth -->
+    <string name="google_auth_text">Continuar con Google</string>
+    <string name="google_auth_loading">Iniciando sesión...</string>
+
+    <!-- LoginViewModel -->
+    <string name="login_view_model_self_hosting_settings_updated">Configuraciones de autoalojamiento actualizadas.</string>
+    <string name="login_view_model_self_hosting_settings_reset">Configuraciones de autoalojamiento restablecidas.</string>
+    <string name="login_view_model_username_validation_length_error_msg">El nombre de usuario debe tener entre 4 y 15 caracteres de longitud.</string>
+    <string name="login_view_model_username_validation_alphanumeric_error_msg">El nombre de usuario solo puede contener letras y números.</string>
+    <string name="login_view_model_username_not_available_error_msg">El nombre de usuario no está disponible.</string>
+    <string name="login_view_model_connection_error_msg">Lo sentimos, estamos teniendo problemas para conectar con el servidor.</string>
+    <string name="login_view_model_something_went_wrong_error_msg">Algo salió mal. Por favor, verifica tu correo electrónico y contraseña e inténtalo de nuevo.</string>
+    <string name="login_view_model_something_went_wrong_two_error_msg">Algo salió mal. Por favor, verifica tus credenciales e inténtalo de nuevo.</string>
+    <string name="login_view_model_google_auth_error_msg">Error al autenticar con Google.</string>
+    <string name="login_view_model_missing_auth_token_error_msg">No se encontró ningún token de autenticación.</string>
+
+    <!-- SelfHostedView -->
+    <string name="self_hosted_view_loading">Cargando...</string>
+    <string name="self_hosted_view_action_reset">Restablecer</string>
+    <string name="self_hosted_view_action_back">Atrás</string>
+    <string name="self_hosted_view_action_save">Guardar</string>
+    <string name="self_hosted_view_action_learn_more">Obtener más información sobre el autoalojamiento de Omnivore</string>
+    <string name="self_hosted_view_field_api_url_label">Servidor API</string>
+    <string name="self_hosted_view_field_web_url_label">Servidor web</string>
+    <string name="self_hosted_view_error_msg">Por favor, introduce las direcciones del servidor API y del servidor web.</string>
+
+    <!-- WelcomeScreen -->
+    <string name="welcome_screen_action_dismiss">Descartar</string>
+    <string name="welcome_screen_action_continue_with_email">Continuar con correo electrónico</string>
+    <string name="welcome_screen_action_self_hosting_options">Opciones de autoalojamiento</string>
+
+    <!-- LabelCreationDialog -->
+    <string name="label_creation_title">Crear una Nueva Etiqueta</string>
+    <string name="label_creation_content">Asigna un nombre y un color.</string>
+    <string name="label_creation_action_create">Crear</string>
+    <string name="label_creation_action_cancel">Cancelar</string>
+    <string name="label_creation_label_placeholder">Nombre de la Etiqueta</string>
+
+    <!-- LabelSelectionSheet -->
+    <string name="label_selection_sheet_title">Filtrar por Etiqueta</string>
+    <string name="label_selection_sheet_title_alt">Establecer Etiquetas</string>
+    <string name="label_selection_sheet_action_cancel">Cancelar</string>
+    <string name="label_selection_sheet_action_search">Buscar</string>
+    <string name="label_selection_sheet_action_save">Guardar</string>
+    <string name="label_selection_sheet_text_create">Crear una nueva etiqueta llamada \"%1$s\"</string>
+    <string name="label_selection_sheet_label_too_long_error_msg">El nombre proporcionado es demasiado largo (debe tener menos o igual que %1$d caracteres)</string>
+
+    <!-- LibraryFilterBar -->
+    <string name="library_filter_bar_label_labels">Etiquetas</string>
+
+    <!-- LibraryNavigationBar -->
+    <string name="library_nav_bar_title">Biblioteca</string>
+    <string name="library_nav_bar_title_alt"></string>
+    <string name="library_nav_bar_field_placeholder_search">Buscar</string>
+
+    <!-- LibraryViewModel -->
+    <string name="library_view_model_snackbar_success">Etiquetas actualizadas</string>
+    <string name="library_view_model_snackbar_error">No se pueden establecer las etiquetas</string>
+
+    <!-- NotebookView -->
+    <string name="notebook_view_title">Block de Notas</string>
+    <string name="notebook_view_action_copy">Copiar</string>
+    <string name="notebook_view_snackbar_msg">Bloc de notas copiado</string>
+
+    <!-- EditNoteModal -->
+    <string name="edit_note_modal_title">Nota</string>
+    <string name="edit_note_modal_action_save">Guardar</string>
+    <string name="edit_note_modal_action_cancel">Cancelar</string>
+
+    <!-- ArticleNotes -->
+    <string name="article_notes_title">Notas del Artículo</string>
+    <string name="article_notes_action_add_notes">Agregar Notas...</string>
+
+    <!-- HighlightsList -->
+    <string name="highlights_list_title">Resaltados</string>
+    <string name="highlights_list_action_copy">Copiar</string>
+    <string name="highlights_list_snackbar_msg">Resaltado copiado</string>
+    <string name="highlights_list_action_add_note">Agregar Nota...</string>
+    <string name="highlights_list_error_msg_no_highlights">No has agregado ningún resaltado a esta página.</string>
+
+    <!-- ReaderPreferencesView -->
+    <string name="reader_preferences_font">Fuente:</string>
+    <string name="reader_preferences_view_font_size">Tamaño de Fuente:</string>
+    <string name="reader_preferences_view_margin">Margen</string>
+    <string name="reader_preferences_view_line_spacing">Espacio entre Líneas</string>
+    <string name="reader_preferences_view_theme">Tema:</string>
+    <string name="reader_preferences_view_auto">Automático</string>
+    <string name="reader_preferences_view_high_constrast_text">Texto de Alto Contraste</string>
+    <string name="reader_preferences_view_justify_text">Justificar Texto</string>
+
+    <!-- WebReaderLoadingContainer -->
+    <string name="web_reader_loading_container_error_msg">No pudimos obtener tu contenido.</string>
+    <string name="web_reader_loading_container_bottom_sheet_reader_preferences">Preferencias del Lector</string>
+    <string name="web_reader_loading_container_bottom_sheet_notebook">Bloc de Notas</string>
+    <string name="web_reader_loading_container_bottom_sheet_edit_info">Editar Información</string>
+    <string name="web_reader_loading_container_bottom_sheet_e">Block de Notas</string>
+    <string name="web_reader_loading_container_bottom_sheet_open_link">Abrir Enlace</string>
+
+    <!-- OpenLinkView -->
+    <string name="open_link_view_action_open_in_browser">Abrir en el Navegador</string>
+    <string name="open_link_view_action_save_to_omnivore">Guardar en Omnivore</string>
+    <string name="open_link_view_action_copy_link">Copiar Enlace</string>
+    <string name="open_link_view_action_cancel">Cancelar</string>
+
+    <!-- WebReaderViewModel -->
+    <string name="web_reader_view_model_save_link_success">Enlace guardado</string>
+    <string name="web_reader_view_model_save_link_error">Error al guardar el enlace</string>
+    <string name="web_reader_view_model_copy_link_success">Enlace copiado</string>
+
+    <!-- SaveContent -->
+    <string name="save_content_msg">Guardando</string>
+    <string name="save_content_action_read_now">Leer Ahora</string>
+    <string name="save_content_action_read_later">Leer Después</string>
+    <string name="save_content_action_dismiss">Descartar</string>
+
+    <!-- SaveViewModel -->
+    <string name="save_view_model_msg">Guardando en Omnivore...</string>
+    <string name="save_view_model_error_not_logged_in">No has iniciado sesión. Por favor inicia sesión antes de guardar.</string>
+    <string name="save_view_model_page_saved_success">Página Guardada</string>
+    <string name="save_view_model_page_saved_error">Hubo un error al guardar tu página</string>
+
+    <!-- SavedItemContextMenu -->
+    <string name="saved_item_context_menu_action_edit_info">Editar Información</string>
+    <string name="saved_item_context_menu_action_edit_labels">Editar Etiquetas</string>
+    <string name="saved_item_context_menu_action_archive">Archivar</string>
+    <string name="saved_item_context_menu_action_unarchive">Desarchivar</string>
+    <string name="saved_item_context_menu_action_share_original">Compartir el Original</string>
+    <string name="saved_item_context_menu_action_remove_item">Eliminar Elemento</string>
+    <string name="saved_item_context_menu_action_mark_read">Marcar como Leído</string>
+    <string name="saved_item_context_menu_action_mark_unread">Marcar como No Leído</string>
+
+    <!-- LogoutDialog -->
+    <string name="logout_dialog_title">Cerrar Sesión</string>
+    <string name="logout_dialog_confirm_msg">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="logout_dialog_action_confirm">Confirmar</string>
+    <string name="logout_dialog_action_cancel">Cancelar</string>
+
+    <!-- ManageAccount -->
+    <string name="manage_account_title">Administrar Cuenta</string>
+    <string name="manage_account_action_reset_data_cache">Restablecer la Caché de Datos</string>
+
+    <!-- PolicyWebView -->
+    <string name="policy_webview_title">Ajustes</string>
+
+    <!-- SettingsView -->
+    <string name="settings_view_title">Ajustes</string>
+    <string name="settings_view_setting_row_documentation">Documentación</string>
+    <string name="settings_view_setting_row_feedback">Comentarios</string>
+    <string name="settings_view_setting_row_privacy_policy">Política de Privacidad</string>
+    <string name="settings_view_setting_row_terms_and_conditions">Términos y Condiciones</string>
+    <string name="settings_view_setting_row_manage_account">Administrar Cuenta</string>
+    <string name="settings_view_setting_row_logout">Cerrar Sesión</string>
+
+    <!-- About -->
+    <string name="about_view_title">Acerca de</string>
+    <string name="about_view_row_version">Versión</string>
+    <string name="about_view_row_whats_new">Novedades</string>
+    <string name="website">Sitio Web</string>
+
+    <!-- stock filters -->
+    <string name="library_filter_inbox">Bandeja de Entrada</string>
+    <string name="library_filter_non_feed">Elementos que no son del Canal</string>
+    <string name="library_filter_feeds">Canales</string>
+    <string name="library_filter_newsletters">Boletines</string>
+    <string name="library_filter_recommended">Recomendados</string>
+    <string name="library_filter_all">Todos</string>
+    <string name="library_filter_archived">Archivados</string>
+    <string name="library_filter_highlighted">Resaltados</string>
+    <string name="library_filter_files">Archivos</string>
+
+    <!-- stock sorts -->
+    <string name="library_sort_newest">Más Recientes</string>
+    <string name="library_sort_oldest">Más Antiguos</string>
+    <string name="library_sort_recently_read">Leídos Recientemente</string>
+    <string name="library_sort_recently_published">Publicados Recientemente</string>
+
+    <!-- AddLinkSheet -->
+    <string name="add_link_sheet_title">Agregar Enlace</string>
+    <string name="add_link_sheet_text_field_placeholder">Agregar Enlace</string>
+    <string name="add_link_sheet_action_add_link">Agregar</string>
+    <string name="add_link_sheet_action_cancel">Cancelar</string>
+    <string name="add_link_sheet_action_paste_from_clipboard">Obtener desde el portapapeles</string>
+    <string name="add_link_sheet_invalid_url_error">URL inválido</string>
+    <string name="add_link_sheet_save_url_error">¡Error al guardar el enlace!</string>
+    <string name="add_link_sheet_save_url_success">¡Enlace guardado con éxito!</string>
+
+    <!-- EditInfoViewModel -->
+    <string name="edit_info_view_model_error_not_logged_in">No has iniciado sesión. Por favor inicia sesión antes de guardar.</string>
+
+    <!-- EditInfoSheet -->
+    <string name="edit_info_sheet_title">Editar Información</string>
+    <string name="edit_info_sheet_text_field_label_title">Título</string>
+    <string name="edit_info_sheet_text_field_label_author">Autor</string>
+    <string name="edit_info_sheet_text_field_label_description">Descripción</string>
+    <string name="edit_info_sheet_action_save">Guardar</string>
+    <string name="edit_info_sheet_action_cancel">Cancelar</string>
+    <string name="edit_info_sheet_error">¡Error al editar el artículo!</string>
+    <string name="edit_info_sheet_success">¡La información del artículo se ha actualizado correctamente!</string>
 </resources>
